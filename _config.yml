@@ -155,11 +155,11 @@ yat:
 #   - tags.html
 #   - about.md
 
-# Page default value
+#Page default value
 # defaults:
 #   home:
-#     heading: "Your awesome heading"
-#     subheading: "Your awesome subheading"
+#     heading: "인공지능 주절부리"
+#     subheading: "이거저거 적어보는 다이어리"
 #     banner: "Your image url"
 
 # Banner default settings
