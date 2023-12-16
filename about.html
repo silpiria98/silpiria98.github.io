@@ -9,73 +9,23 @@ title: About
 />
 
 
-
 <h2>About</h2>
 
 <p>
-    김주현, JooHyun Kim.
+    김주현, JooHyun Kim. <br>
+    컴퓨터공학 & 문헌정보학 전공
 </p>
 
 <p>
-    안녕하세요, 컴퓨터공학과 문헌정보학을 전공하고 있는 학생입니다.
+    안녕하세요, 인공지능에 관심이 많아 공부를 하고 있습니다.    
 </p>
+<div>
+    <div id="emailBadge" data-icon='ei-envelope' data-size='m'></div>
+    <span style="vertical-align: middle;">silpiria98@outlook.com</span>
+</div>
 
-<h2>Social</h2>
-
-<div id="emailBadge" data-icon='ei-envelope' data-size='m'></div>
+<br>
 <a href="https://github.com/silpiria98" target="_blank"><div data-icon='ei-sc-github' data-size='m'></div></a>
 <a href="https://www.linkedin.com/in/%EC%A3%BC%ED%98%84-%EA%B9%80-727b0b299/" target="_blank"><div data-icon='ei-sc-linkedin' data-size='m'></div></a>
-
-
-
-
-<script>
-    console.log("스크립트가 실행되었습니다.");
-
-    // Get the email address
-    var emailAddress = "silpiria98@outlook.com"; // Replace with your actual email address
-
-    // Create a tooltip element
-    var tooltip = document.createElement("div");
-    tooltip.innerText = "silpiria98@outlook.com, 복사하려면 클릭하세요";
-    tooltip.style.position = "absolute";
-    tooltip.style.visibility = "hidden";
-    tooltip.style.background = "#333";
-    tooltip.style.color = "#fff";
-    tooltip.style.padding = "5px";
-    tooltip.style.borderRadius = "3px";
-    document.body.appendChild(tooltip);
-
-    // Add mouseover event to the email badge
-    document.getElementById('emailBadge').addEventListener('mouseover', function(event) {
-        console.log("mouseover 스크립트가 실행되었습니다.");
-        // Show the tooltip above the badge
-        tooltip.style.visibility = "visible";
-        tooltip.style.top = (event.clientY - 30) + "px";
-        tooltip.style.left = event.clientX + "px";
-    });
-
-    // Add mouseout event to the email badge
-    document.getElementById('emailBadge').addEventListener('mouseout', function() {
-        console.log("mouseout 스크립트가 실행되었습니다.");
-        // Hide the tooltip
-        tooltip.style.visibility = "hidden";
-    });
-
-    // Add click event to the email badge
-    document.getElementById('emailBadge').addEventListener('click', function() {
-        console.log("click 스크립트가 실행되었습니다.");
-        // Copy the email address to the clipboard
-        var tempInput = document.createElement("input");
-        document.body.appendChild(tempInput);
-        tempInput.value = emailAddress;
-        tempInput.select();
-        document.execCommand("copy");
-        document.body.removeChild(tempInput);
-
-        // Notify the user
-        alert("이메일이 복사되었습니다: " + emailAddress);
-    });
-</script>
 
 <script src="https://cdn.jsdelivr.net/npm/evil-icons@1.10.1/assets/evil-icons.js"></script>
