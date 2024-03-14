@@ -24,7 +24,7 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: 인공지능 주절부리
+title: 주절부리
 email: silpiria98@outlook.com
 author: JooHyun Kim
 
